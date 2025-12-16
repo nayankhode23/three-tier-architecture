@@ -85,6 +85,9 @@ Internet → ALB → Frontend EC2 → Backend EC2 → RDS DB
 
 <img width="1920" height="1020" alt="Screenshot 2025-12-16 031735" src="https://github.com/user-attachments/assets/79b220db-1b0a-4a47-b2be-c9bf8105b97f" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5ab04078-ea77-45e2-a1e5-78d5a8ffe483" />
+<img width="951" height="411" alt="image" src="https://github.com/user-attachments/assets/87b16e6e-cb4e-46c7-bf33-4f64de31afbc" />
+
+
 
 
 
