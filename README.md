@@ -7,14 +7,10 @@ It demonstrates how to design and deploy a production-ready architecture with **
 
 ## 📑 Table of Contents
 - [Features](#features)
+- [Project Structure](#project-structure)
 - [Technology Stack](#technology-stack)
 - [Architecture & Network Flow](#architecture--network-flow)
-- [Setup Instructions](#setup-instructions)
-- [Project Structure](#project-structure)
-- [Terraform Outputs](#terraform-outputs)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+- [Outputs](#toutputs)
 
 ---
 
@@ -28,6 +24,30 @@ It demonstrates how to design and deploy a production-ready architecture with **
 - Remote state management with **S3 backend** (and optional DynamoDB locking)
 
 ---
+## Project Structure
+
+three-tier-architecture/
+│
+├── envs/
+│   └── dev/
+│       ├── backend.tf        # Remote state backend (S3 + DynamoDB optional)
+│       ├── main.tf           # Wires VPC, App, DB modules together
+│       └── variables.tf      # Environment-specific variables
+│
+└── modules/
+    ├── vpc/                  # Networking resources
+    │   ├── main.tf
+    │   ├── outputs.tf
+    │   └── variables.tf
+    │
+    ├── app/                  # Application layer (EC2 + ALB)
+    │   ├── main.tf
+    │   └── outputs.tf
+    │
+    └── db/                   # Database layer (RDS + Secrets Manager)
+        ├── main.tf
+        └── outputs.tf
+
 
 ## 🛠 Technology Stack
 - **Terraform** (Infrastructure as Code)
@@ -46,6 +66,9 @@ It demonstrates how to design and deploy a production-ready architecture with **
 ## 🏗 Architecture & Network Flow
 The project provisions a classic **three-tier architecture**:
 
+<img width="1024" height="1536" alt="Copilot_20251216_050821" src="https://github.com/user-attachments/assets/9d6a00f9-0b82-40af-b3d2-4651302125b1" />
+
+
 - **Frontend Tier**  
   - EC2 instance in public subnet  
   - Receives traffic via ALB (HTTP 80)  
@@ -62,15 +85,30 @@ The project provisions a classic **three-tier architecture**:
 **Network Flow**:  
 Internet → ALB → Frontend EC2 → Backend EC2 → RDS DB  
 
-👉 *Add architecture diagram screenshot here*
+<img width="1536" height="1024" alt="Copilot_20251216_051213" src="https://github.com/user-attachments/assets/6793c107-f6bf-48a5-9ada-aa85534ddc6c" />
+
 
 ---
 
-## ⚙️ Setup Instructions
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/<your-username>/three-tier-architecture.git
-   cd three-tier-architecture/envs/dev
+## ⚙️ Outputs
+<img width="1920" height="1020" alt="Screenshot 2025-12-16 025155" src="https://github.com/user-attachments/assets/961933dd-4b1e-4b48-b164-cb6583b97534" />
+
+
+<img width="1920" height="1020" alt="Screenshot 2025-12-16 025140" src="https://github.com/user-attachments/assets/7d9e4362-b156-492a-895d-ec09a1378cc5" />
+
+<img width="1920" height="1020" alt="Screenshot 2025-12-16 025048" src="https://github.com/user-attachments/assets/9a0bd7da-c893-42ca-976b-c9baef222cb1" />
+
+<img width="1920" height="1020" alt="Screenshot 2025-12-16 025644" src="https://github.com/user-attachments/assets/aec7186f-5d66-4525-8a19-ed35b4c032ab" />
+
+<img width="1920" height="1020" alt="Screenshot 2025-12-16 031340" src="https://github.com/user-attachments/assets/d81aa032-8e55-44e7-a73d-a8b3f4d39a42" />
+
+
+<img width="1920" height="1020" alt="Screenshot 2025-12-16 031735" src="https://github.com/user-attachments/assets/79b220db-1b0a-4a47-b2be-c9bf8105b97f" />
+
+
+
+
+
 
 
 
