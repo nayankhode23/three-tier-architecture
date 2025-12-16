@@ -25,28 +25,8 @@ It demonstrates how to design and deploy a production-ready architecture with **
 
 ---
 ## Project Structure
+<img width="404" height="671" alt="image" src="https://github.com/user-attachments/assets/b8a96462-0f0c-4b2d-8549-b0f0cf0e9235" />
 
-three-tier-architecture/
-│
-├── envs/
-│   └── dev/
-│       ├── backend.tf        # Remote state backend (S3 + DynamoDB optional)
-│       ├── main.tf           # Wires VPC, App, DB modules together
-│       └── variables.tf      # Environment-specific variables
-│
-└── modules/
-    ├── vpc/                  # Networking resources
-    │   ├── main.tf
-    │   ├── outputs.tf
-    │   └── variables.tf
-    │
-    ├── app/                  # Application layer (EC2 + ALB)
-    │   ├── main.tf
-    │   └── outputs.tf
-    │
-    └── db/                   # Database layer (RDS + Secrets Manager)
-        ├── main.tf
-        └── outputs.tf
 
 
 ## 🛠 Technology Stack
@@ -104,6 +84,7 @@ Internet → ALB → Frontend EC2 → Backend EC2 → RDS DB
 
 
 <img width="1920" height="1020" alt="Screenshot 2025-12-16 031735" src="https://github.com/user-attachments/assets/79b220db-1b0a-4a47-b2be-c9bf8105b97f" />
+
 
 
 
