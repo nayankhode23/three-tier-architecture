@@ -45,8 +45,7 @@ It demonstrates how to design and deploy a production-ready architecture with **
 
 ## 🏗 Architecture & Network Flow
 The project provisions a classic **three-tier architecture**:
-
-<img width="1024" height="1536" alt="Copilot_20251216_050821" src="https://github.com/user-attachments/assets/9d6a00f9-0b82-40af-b3d2-4651302125b1" />
+<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/348f4e5f-0389-479f-a230-c83cca4cd00f" />
 
 
 - **Frontend Tier**  
@@ -87,6 +86,7 @@ Internet → ALB → Frontend EC2 → Backend EC2 → RDS DB
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5ab04078-ea77-45e2-a1e5-78d5a8ffe483" />
 <img width="951" height="411" alt="image" src="https://github.com/user-attachments/assets/87b16e6e-cb4e-46c7-bf33-4f64de31afbc" />
 <img width="950" height="305" alt="image" src="https://github.com/user-attachments/assets/e9dc3845-f0b1-4ed8-bbce-f6074c85d9fd" />
+
 
 
 
