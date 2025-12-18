@@ -81,7 +81,7 @@ resource "aws_route_table_association" "public" {
   subnet_id      = aws_subnet.public[count.index].id
 }
 
-# NAT Gateway (one AZ, free-tier aware but still billable slowly)
+# NAT Gateway 
 resource "aws_eip" "nat_eip" {
 
   tags = {
@@ -134,3 +134,4 @@ resource "aws_route_table_association" "private_db" {
   route_table_id = aws_route_table.private_db.id
   subnet_id      = aws_subnet.private_db[count.index].id
 }
+
