@@ -37,12 +37,6 @@ module "db" {
   backend_sg_id = module.app.backend_sg_id
 }
 
-# Now pass DB info back to app for future use (optional)
-# (If you don't need DB connectivity from backend yet, you can skip these inputs.)
-
-# For now we'll keep app independent (no DB env injection) to avoid circularity.
-
-
 output "alb_dns_name" {
   value       = module.app.alb_dns_name
   description = "Public ALB DNS name for the frontend"
@@ -57,3 +51,4 @@ output "db_endpoint" {
   value       = module.db.db_endpoint
   description = "DB endpoint"
 }
+
