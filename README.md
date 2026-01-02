@@ -47,6 +47,9 @@ It demonstrates how to design and deploy a production-ready architecture with **
 The project provisions a classic **three-tier architecture**:
 <img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/fda6386d-56c7-42ec-a173-4bfc2962be2a" />
 
+<img width="2031" height="1840" alt="App Architecture (1)" src="https://github.com/user-attachments/assets/c444aeef-8553-4480-9a32-8f8ead1e1544" />
+
+
 
 
 
@@ -66,7 +69,6 @@ The project provisions a classic **three-tier architecture**:
 **Network Flow**:  
 Internet → ALB → Frontend EC2 → Backend EC2 → RDS DB  
 
-<img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/252c08a1-db6a-4eef-a67f-1d8f9c8c04ad" />
 
 
 
@@ -91,6 +93,7 @@ Internet → ALB → Frontend EC2 → Backend EC2 → RDS DB
 <img width="950" height="305" alt="image" src="https://github.com/user-attachments/assets/e9dc3845-f0b1-4ed8-bbce-f6074c85d9fd" />
 <img width="1136" height="317" alt="image" src="https://github.com/user-attachments/assets/fbca3263-407b-4861-99fe-e27967561ecf" />
 <img width="1142" height="492" alt="image" src="https://github.com/user-attachments/assets/af4d670b-857c-48b1-8fac-b60803afa435" />
+
 
 
 
