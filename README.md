@@ -72,6 +72,11 @@ Internet → ALB → Frontend EC2 → Backend EC2 → RDS DB
 <img width="1024" height="572" alt="image" src="https://github.com/user-attachments/assets/f4c1291b-98eb-4071-a38d-eb3860c244d5" />
 <img width="1024" height="572" alt="image" src="https://github.com/user-attachments/assets/0bea9789-4019-4971-a55a-50cc7ce0cc64" />
 
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/c9eb3117-3879-47da-b5d4-36c42c167381" />
+
+<img width="1024" height="572" alt="image" src="https://github.com/user-attachments/assets/c696e5da-72ed-4309-8563-653672f5f5ae" />
+
+
 
 
 
@@ -97,6 +102,7 @@ Internet → ALB → Frontend EC2 → Backend EC2 → RDS DB
 <img width="950" height="305" alt="image" src="https://github.com/user-attachments/assets/e9dc3845-f0b1-4ed8-bbce-f6074c85d9fd" />
 <img width="1136" height="317" alt="image" src="https://github.com/user-attachments/assets/fbca3263-407b-4861-99fe-e27967561ecf" />
 <img width="1142" height="492" alt="image" src="https://github.com/user-attachments/assets/af4d670b-857c-48b1-8fac-b60803afa435" />
+
 
 
 
