@@ -68,6 +68,10 @@ The project provisions a classic **three-tier architecture**:
 
 **Network Flow**:  
 Internet → ALB → Frontend EC2 → Backend EC2 → RDS DB  
+<img width="1024" height="572" alt="image" src="https://github.com/user-attachments/assets/0b313a1c-5d1d-433c-9fdc-995c6b568c13" />
+<img width="1024" height="572" alt="image" src="https://github.com/user-attachments/assets/f4c1291b-98eb-4071-a38d-eb3860c244d5" />
+<img width="1024" height="572" alt="image" src="https://github.com/user-attachments/assets/0bea9789-4019-4971-a55a-50cc7ce0cc64" />
+
 
 
 
@@ -93,6 +97,7 @@ Internet → ALB → Frontend EC2 → Backend EC2 → RDS DB
 <img width="950" height="305" alt="image" src="https://github.com/user-attachments/assets/e9dc3845-f0b1-4ed8-bbce-f6074c85d9fd" />
 <img width="1136" height="317" alt="image" src="https://github.com/user-attachments/assets/fbca3263-407b-4861-99fe-e27967561ecf" />
 <img width="1142" height="492" alt="image" src="https://github.com/user-attachments/assets/af4d670b-857c-48b1-8fac-b60803afa435" />
+
 
 
 
